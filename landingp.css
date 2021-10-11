@@ -39,7 +39,49 @@ h1, h2{
 .side-menu .logo-name{
     height: 10vh;
     display: flex;
+    padding: 5px 60px;
     align-items: center;
-    justify-content: center;
+    
+}
+.side-menu ul{
+  font-size: 24px;  
+  color: rgb(149, 148, 148);
+  justify-content: center;
+  margin-left: 50px;
+  
+  
+}
+
+.side-menu li{
+    font-size: 18px;
+    padding: 8px 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.side-menu li:hover{
+   background-color: rgb(220, 213, 208) ;
+   color: rgb(255, 255, 255); 
+}
+.side-menu ul li img{
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+}
+
+.searchBar button img{
+    width: 40px;
+}
+.container{
+    position: absolute;
+    right: 0;
+    width: 60vw;
+    height: 100vh;
+}
+.container .header{
+    position: fixed;
+    width: 60vw;
+    height: 10vh;
+    background: rgb(241, 239, 236);;
 }
 
